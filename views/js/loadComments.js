@@ -23,7 +23,7 @@ function loadComments(){
 }
 
 
-function readComent(coment){
+function readComent(comment){
 	const fs = require('fs');
 	const TextToSpeechV1 = require('ibm-watson/text-to-speech/v1');
 	const { IamAuthenticator } = require('ibm-watson/auth');
@@ -36,7 +36,7 @@ function readComent(coment){
 	});
 	
 	const synthesizeParams = {
-	  text: 'Hello world',
+	  text: comment,
 	  accept: 'audio/wav',
 	  voice: 'pt-BR_IsabelaVoice',
 	};
