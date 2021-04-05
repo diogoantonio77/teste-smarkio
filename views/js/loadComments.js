@@ -30,9 +30,9 @@ function readComent(coment){
 	
 	const textToSpeech = new TextToSpeechV1({
 	  authenticator: new IamAuthenticator({
-		apikey: '{apikey}',
+		apikey: 'he2VebnRNtKO1dxdXfxij_S3sspmzLzzgGlCRc1Fx8bv ',
 	  }),
-	  serviceUrl: '{url}',
+	  serviceUrl: 'https://api.us-south.text-to-speech.watson.cloud.ibm.com/instances/8521c9ee-7251-418c-9686-f7998856baac',
 	});
 	
 	const synthesizeParams = {
