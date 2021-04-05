@@ -1,0 +1,39 @@
+#col-1 {
+    position: relative;
+    width: 50%;
+    float: left;
+    height: 100%;
+
+    z-index: 1010101010
+  }
+  
+  #col-2 {
+    position: relative;
+    width: 50%;
+    float: left;
+    height: 100%;
+ 
+    z-index: 1010101010
+  }
+
+  .magica{
+      margin-top: 10%;
+      margin-left: 10%;
+      margin-right: 10%;
+  }
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 10px;
+    padding: 10px;
+  }
+  
+  .grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px 0;
+    font-size: 30px;
+  }
+  
+  .item1 {
+    grid-row: 1 / span 2;
+  }
